@@ -1,0 +1,32 @@
+#liste{
+    display: grid;
+    grid-template-columns: 1fr 1fr 5% 5%;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 0.5px;
+}
+.li-grid:hover{
+    background-color: rgba(56, 123, 248, 0.849);
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 75vw;
+}
+#entete{
+    display: grid;
+    grid-template-columns: 1fr 1fr 5% 5%;
+    justify-content: center;
+    text-align: center;
+}
+.nav-link:hover{
+    color: red;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+
